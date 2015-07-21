@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>
+Virtual Machine Meetup 2014
+</title>
+<style>
+body {
+  padding: 2em;
+  margin: auto;
+  max-width: 46em;
+  font-family: sans-serif;
+}
+</style>
+<script src="jquery-2.1.1.min.js"></script>
+</head>
+<body>
+
+<h1>Virtual Machine Meetup 2014</h1>
+
+<p>The VMM2014 was the first edition of the Virtual Machine Meetup - see <a href="../2015/">VMM2015</a> for the second edition.</p>
+
+<h3>Slides from VMM2014</h3>
+
+<p>Here is the program from the VMM2014 and links to the slides that were submitted by the presenters:</p>
+
+<script>
+var data = [{
+    day: "Thursday, 11th of September",
+    slots: [{
+            time: "09:00 - 09:30",
+            title: "Oracle Labs VM Research Overview",
+            speaker: "Thomas Wuerthinger",
+            slides: "Wuerthinger",
+            affiliation: "Oracle Labs"
+        }, {
+            time: "09:30 - 10:00",
+            title: "Three Research Threads with Potential Application in Data Analytics",
+            speaker: "Markus P&uuml;schel",
+            slides: "Pueschel",
+            affiliation: "Department of Computer Science, ETH Zurich"
+        }, {
+            time: "10:00 - 10:30",
+            title: "The Oracle - Linz JVM Research Cooperation",
+            speaker: "Hanspeter M&ouml;ssenb&ouml;ck",
+            slides: "Moessenboeck",
+            affiliation: "Johannes Kepler University Linz"
+        },
+
+        {
+            time: "11:00 - 11:30",
+            title: "Optimizing Allocations with Partial Escape Analysis",
+            speaker: "Lukas Stadler",
+            slides: "Stadler",
+            affiliation: "Oracle Labs"
+        }, {
+            time: "11:30 - 12:00",
+            title: "Late Data Layout: Unifying Data Representation Transformations",
+            speaker: "Vlad Ureche",
+            slides: "Ureche",
+            affiliation: "Programming Methods Laboratory, EPFL"
+        },
+
+        {
+            time: "13:30 - 14:00",
+            title: "Garbage Collection for Distributed Systems",
+            speaker: "Tim Harris",
+            affiliation: "Oracle Labs"
+        }, {
+            time: "14:00 - 14:30",
+            title: "Reflecting on Advanced Distributed Programs",
+            speaker: "Elisa Gonzalez Boix",
+            slides: "Gonzales",
+            affiliation: "Vrije Universiteit Brussel"
+        }, {
+            time: "14:30 - 15:00",
+            title: "Comprehensive Multi-Platform Dynamic Program Analysis for the Java and Dalvik VM",
+            speaker: "Walter Binder and Yudi Zheng",
+            affiliation: "University of Lugano"
+        }, {
+            time: "15:30 - 16:00",
+            title: "Beyond Virtual Machines: Dynamic Control Flow Integrity",
+            speaker: "Thomas Gross",
+            slides: "Gross",
+            affiliation: "Laboratory for Software Technology, ETH Zurich"
+        }, {
+            time: "16:00 - 16:30",
+            title: "EventRacer: Concurrency Analysis for Event-Driven Applications",
+            speaker: "Martin Vechev",
+            slides: "Vechev",
+            affiliation: "Software Reliability Lab, ETH Zurich"
+        }
+    ]
+}, {
+    day: "Friday, 12th of September",
+    slots: [{
+        time: "09:00 - 09:30",
+        title: "Generating Interpreters from DynSem Specifications",
+        speaker: "Eelco Visser and Vlad Vergu",
+        affiliation: "Delft University of Technology"
+    }, {
+        time: "09:30 - 10:00",
+        title: "High-performance JavaScript on top of Truffle",
+        speaker: "Christian Wirth",
+        slides: "Wirth",
+        affiliation: "Oracle Labs"
+    }, {
+        time: "10:00 - 10:30",
+        title: "Tools for the Development of Correct Software",
+        speaker: "Peter M&uuml;ller",
+        affiliation: "Chair of Programming Methodology, Department of Computer Science, ETH Zurich"
+    }, {
+        time: "11:00 - 11:30",
+        title: "Purity Analysis for JavaScript",
+        speaker: "Jens Nicolay",
+        slides: "Nicolay",
+        affiliation: "Software Languages Lab, Vrije Universiteit Brussel"
+    }, {
+        time: "11:30 - 12:00",
+        title: "ScalaMeter",
+        speaker: "Aleksandar Prokopec",
+        slides: "Prokopec",
+        affiliation: "Programming Methods Laboratory, EPFL"
+    }, {
+        time: "13:30 - 14:00",
+        title: "FastR",
+        speaker: "Michael Haupt",
+        slides: "Haupt",
+        affiliation: "Oracle Labs"
+    }, {
+        time: "14:00 - 14:30",
+        title: "Language Integration and Migration",
+        speaker: "Laurence Tratt",
+        slides: "Tratt",
+        affiliation: "Software Development Team, Informatics, King\"s College London"
+    }, {
+        time: "14:30 - 15:00",
+        title: "Language Support for Reactive Applications",
+        speaker: "Guido Salvaneschi",
+        slides: "Salvaneschi",
+        affiliation: "Technische Universität Darmstadt"
+    }, {
+        time: "15:30 - 16:00",
+        title: "Incremental Updates for Graph Queries",
+        speaker: "Sandro Stucki",
+        slides: "Stucki",
+        affiliation: "EPFL LAMP & Oracle Labs"
+    }, {
+        time: "16:00 - 16:30",
+        title: "Space-Time Views For Back-In-Time Debugging",
+        speaker: "Mohammad Azadmanesh",
+        slides: "Azadmanesh",
+        affiliation: "University of Lugano"
+    }]
+}];
+
+var table = $('<table/>').appendTo("body");
+for (var i = 0; i < data.length; ++i) {
+    var slots = data[i].slots;
+    for (var j = 0; j < slots.length; ++j) {
+       var s = slots[j];
+       var row = $('<tr/>');
+       var title = s.title;
+       if (s.slides) {
+          title = '<a href="VMM2014-' + s.slides + '.pdf">' + title + "</a>";
+       }
+
+       row.append($('<td/>').html(title));
+       row.append($('<td/>').html(s.speaker));
+       table.append(row);
+    }
+}
+</script>
+
+</body>
+</html>
