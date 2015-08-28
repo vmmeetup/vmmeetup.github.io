@@ -10,6 +10,11 @@ body {
   max-width: 46em;
   font-family: sans-serif;
 }
+
+td {
+  font-size: 11pt;
+  padding: 4pt;
+}
 </style>
 </head>
 <body>
@@ -20,7 +25,7 @@ body {
 
 <p>The 2nd Virtual Machine Meetup 2015 will be held on 10th and 11th of September at the ETH Zurich in Switzerland (rooms IFW A32.1 and A34 from 9am - 5pm). It is a venue for discussing the latest research and developments in the area of managed language execution. We welcome presentations of new research results, experience reports, as well as position statements that can lead to interesting discussions. The program of last year's VMM2014 can be found <a href="../2014">here</a></p>
 
-<p>Topics include, but are not limited to:
+<!--<p>Topics include, but are not limited to:
 <ul>
 <li>Programming language design</li>
 <li>Dynamic and static program analysis</li>
@@ -29,11 +34,132 @@ body {
 <li>Data processing engines</li>
 <li>Distributed execution environments</li>
 </ul>
-</p>
+</p>-->
 
 <p>Participation is free of charge and includes snacks, drinks, and coffee during the breaks. Please register by sending a mail to <a href="mailto:thomas.wuerthinger@oracle.com">thomas.wuerthinger@oracle.com</a> including your full name and affiliation that should show on your name tag. There are limited participant slots due to the contraints of the room, so please register early.</p>
 
-<p>If you would like to fill a time slot with your own presentation, please include title (max. 100 characters) and abstract (max. 800 characters). We may ask for additional information from you before making the program decision. Presentation slots are either 30 minutes (long) or 15 minutes (short) including Q/A.</p>
+
+<h3>Preliminary Schedule</h3>
+
+<h4>Friday, 11th of September</h4>
+<table>
+<tr>
+<td>Time</td>
+<td>Talk</td>
+</tr>
+<tr>
+<td>09:00 - 09:30</td>
+<td>Oracle Labs VM Research Overview </br><i>Thomas Wuerthinger, Oracle Labs</i></td>
+</tr>
+<tr>
+<td>09:30 - 10:00</td>
+<td>Accurate Profiling of Dynamically Optimized Code </br><i>Walter Binder, USI Lugano</i></td>
+</tr>
+<tr>
+<td>10:00 - 10:30</td>
+<td>Optimizing Ruby with Truffle </br><i>Benoit Daloze, JKU Linz</i></td>
+</tr>
+<tr>
+<td>10:30 - 11:00</td>
+<td>*** Coffee Break ***</td>
+</tr>
+<tr>
+<td>11:00 - 11:30</td>
+<td>An API for a multi-threaded, multi-language, multi-tenant, multi-node VM </br><i>Jaroslav Tulach, Oracle Labs</i></td>
+</tr>
+<tr>
+<td>11:30 - 12:00</td>
+<td>An investigation into the warmup behaviour of various virtual machines </br><i>Carl Friedrich Bolz, King's College London</i></td>
+</tr>
+<tr>
+<td>
+13:30 - 14:00
+</td>
+<td>Towards a multi-language parallel runtime system </br><i>Tim Harris, Oracle Labs</i></td>
+</tr>
+<tr>
+<td>14:00 - 14:30</td>
+<td>Multi-core programming without threads: the Transactional Memory approach </br><i>Remi Meier and Armin Rigo, ETH Z&uuml;rich</i></td>
+</tr>
+<tr>
+<td>14:30 - 15:00</td>
+<td>Why Is Concurrent Programming Hard, and What Can We Do about It </br><i>Stefan Marr, JKU Linz</i></td>
+</tr>
+<tr>
+<td>15:00 - 15:30</td>
+<td>*** Coffee Break ***</td>
+</tr>
+<tr>
+<td>15:30 - 16:00</td>
+<td>RAPID Query Compiler &amp; Optimizer </br><i>Nitin Kunal, Oracle Labs</i></td>
+</tr>
+<tr>
+<td>16:00 - 16:30</td>
+<td>Pydron: Semi-Automatic Parallelization for Multi-Core and the Cloud </br><i>Stefan M&uuml;ller, ETH Z&uuml;rich</i></td>
+</tr>
+</table>
+	
+<h4>Friday, 12th of September</h4>
+	
+<table>
+<tr>
+<td>09:00 - 09:30</td>
+<td>Scala.js Optimizations: removing (almost</i> all abstractions </br><i>S&eacute;bastien Doeraene, EPFL</i></td>
+</tr>
+<tr>
+<td>09:30 - 10:00</td>
+<td>A Performant Scheme Interpreter in asm.js </br><i>Quentin Stievenart, Vrije Universiteit Brussel</i></td>
+</tr>
+<tr><td>10:00 - 10:30</td>
+<td>Node.js on Graal.js: Challenges towards full compatibility </br><i>Christian Wirth, Oracle Labs</i></td>
+</tr>
+<tr>
+<td>10:30 - 11:00</td>
+<td>*** Coffee Break ***</td>
+</tr>
+
+<tr><td>11:00 - 11:30</td>
+<td>Graal JavaScriptify: Compiling Java AOT to JavaScript </br><i>David Leopoldseder, JKU Linz</i></td>
+</tr>
+<tr>
+<td>11:30 - 12:00</td>
+<td>Process-wide type and bounds checking </br><i>Stephen Kell, University of Cambridge</i></td>
+</tr>
+	
+<tr>
+<td>13:30 - 14:00</td>
+<td>R as a Citizen of the Truffle Family of Languages </br><i>Lukas Stadler, Oracle Labs</i></td>
+</tr>
+
+<tr>
+<td>14:00 - 14:30</td>
+<td>Optimizing Reactive Programming </br><i>Guido Salvaneschi, TU Darmstadt</i></td>
+</tr>
+
+<tr>
+<td>14:30 - 15:00</td>
+<td>Project BeeHive: Hardware Software Design Space Exploration/Codesign</br><i>Andy Nisbet, University of Manchester</i></td>
+</tr>
+
+<tr>
+<td>15:00 - 15:30</td>
+<td>*** Coffee Break ***</td>
+</tr>
+
+<tr>
+<td>15:30 - 16:00</td>
+<td>Graal Low-Level Compiler Optimizations </br><i>Roland Schatz, Oracle Labs</i></td>
+</tr>
+
+<tr>
+<td>16:00 - 16:30</td>
+<td>Data-Centric Metaprogramming </br><i>Vlad Ureche, EPFL</i></td>
+</tr>
+
+</table>
+
+
+<!--<p>If you would like to fill a time slot with your own presentation, please include title (max. 100 characters) and abstract (max. 800 characters). We may ask for additional information from you before making the program decision. Presentation slots are either 30 minutes (long) or 15 minutes (short) including Q/A.</p>-->
 
 <p>As an optional social event, we will plan this year for Saturday the 12th of September a trip to the <a href="https://en.wikipedia.org/wiki/Rigi">Rigi</a> - a small mountain with an excellent view of the Alps and the three lakes around it. Please let us know whether you intend to participate for planning purposes.</p>
 
