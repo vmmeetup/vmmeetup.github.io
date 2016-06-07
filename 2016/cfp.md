@@ -1,6 +1,13 @@
-# Virtual Machine Meetup
+                    Call for Participation: VMM’16
+                    ==============================
 
-## Call for Participation at the VMM2016
+                      3rd Virtual Machine Meetup
+
+                        Co-located with PPPJ
+               September 1-2, 2016, Lugano, Switzerland
+                   
+                    http://vmmeetup.github.io/2016/
+
 
 The 3rd Virtual Machine Meetup (VMM'16) is a venue for discussing the latest
 research and developments in the area of managed language execution. It will be
