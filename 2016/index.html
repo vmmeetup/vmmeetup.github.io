@@ -15,6 +15,19 @@ td {
   font-size: 11pt;
   padding: 4pt;
 }
+
+td.break {
+  color: gray;
+  text-align: center
+}
+
+td.header, td.time {
+  background-color: #EEEEEE
+}
+
+td.talk {
+  background-color: #FFF380
+}
 </style>
 </head>
 <body>
@@ -29,39 +42,89 @@ managed language execution.
 It will be held on 1st and 2nd of September at the Universit&agrave; della Svizzera italiana (USI), Lugano, Switzerland and is part of the
 Managed Languages &amp; Runtimes Week 2016 (<a href="http://manlang16.inf.usi.ch/">http://manlang16.inf.usi.ch/</a>, other colocated events are PPPJ &#039;16 and JTRES &#039;16, room Auditorium from 9am - 5pm).
 We welcome presentations of new research results, experience reports, as well as position statements that can lead to interesting
-discussions. The program of last year's VMM2015 can be found <a href="../2015">here</a>.
+discussions.
 </p>
 
-<p>
-Topics include, but are not limited to:
 
-<ul>
-	<li>Programming language design</li>
-	<li>Dynamic and static program analysis</li>
-	<li>Compiler construction</li>
-	<li>Managed runtime architectures</li>
-  <li>Data processing engines</li>
-	<li>Distributed execution environments</li>
-</ul>
+<h3>Preliminary Schedule</h3>
+
+
+<table>
+  <tr>
+    <td></td>
+    <td class="header" width="50%">
+    <b>Thursday, 1st of September</b>
+  </td><td class="header" width="50%">
+  <b>Friday, 2nd of September</b>
+</td>
+</tr>
+<tr>
+<td class="time">09:00</td>
+<td class="talk">Oracle Labs VM Research Overview</br><i>Thomas Wuerthinger, Oracle Labs</i></td>
+<td class="talk">Shenandoah Garbage Collector</br><i>Christine Flood, RedHat</i></td>
+</tr>
+<tr>
+<td class="time">09:40</td>
+<td class="talk">Parallel Execution for RPython VMs</br><i>Remi Meier, ETH Zurich</i></td>
+<td class="talk">C, C++, and Fortran on the JVM via Sulong</br><i>Manuel Rigger, JKU Linz</i></td>
+</tr>
+<tr>
+<td></td>
+<td class="break" colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td class="time">10:50</td>
+<td class="talk">Thread-Safe Object Model for Truffle</br><i>Benoit Daloze, JKU Linz</i></td>
+<td class="talk">Lusagent: Dynamic Software Updating on Java</br><i>Alex Neumann, Karlsruhe Institute of Technology</i></td>
+</tr>
+<tr>
+<td class="time">11:30</td>
+<td class="talk">Dotty, towards the better\faster\safer Scala</br><i>Dmitry Petrashko, EPFL</i></td>
+<td class="talk">Breaking Boundaries between Runtimes &amp; DB</br><i>Julien Lopez, University of Paris-Sud</i></td>
+</tr>
+<tr>
+<td></td>
+<td class="break" colspan="2">Lunch Break</td>
+</tr>
+<tr>
+<td class="time">
+13:30
+</td>
+<td class="talk">Branch Pruning in the Firefox JIT</br><i>Nicolas B. Pierron, Mozilla</i></td>
+<td class="talk">RAPID Query Execution</br><i>Nitin Kunal, Oracle Labs</i></td>
+</tr>
+<tr>
+<td class="time">14:10</td>
+<td class="talk">Advanced Path Duplication in Graal</br><i>David Leopoldseder, Oracle Labs</i></td>
+<td class="talk">Utilising Hardware Acceleration from Java</br><i>James Clarkson, University of Manchester</i></td>
+</tr>
+<tr>
+<td></td>
+<td class="break" colspan="2">Coffee Break</td>
+</tr>
+<tr>
+<td class="time">15:20</td>
+<td class="talk">Measuring JIT Compiler Improvements</br><i>Petr Tuma, Charles University Prague</i></td>
+<td class="talk">Energy-Efficient Managed Language Execution</br><i>Shoaib Akram, Ghent University</i></td>
+</tr>
+<tr>
+<td class="time">16:00</td>
+<td class="talk">Eclipse OMR JITBuilder for Better Performance</br><i>Charlie Gracie, IBM Runtimes</i></td>
+<td class="talk">Maxine on ZSim: HW/SW Co-design Research</br><i>Andrey Rodchenko, University of Manchester</i></td>
+</tr>
+</table>
 
 <p>
 To participate, please email <a href="mailto:thomas.wuerthinger@oracle.com">thomas.wuerthinger@oracle.com</a>
 stating your wish to attend, and your name and affiliation as you wish to have
 them on your name badge. There are limited participant slots due to the
-constraints of the room, so please register early, and by July 20th the latest.
+constraints of the room, so please register early, and by July 27th the latest.
 </p>
-
-<p>If you would like to give a presentation, please email Thomas with a title
-(max. 100 characters) and abstract (max. 400 characters). We may ask for additional
-information from you before making the program decision. Presentation slots are either
-30 minutes (long) or 15 minutes (short) including Q/A.</p>
 
 <p>
 Important dates:
 <ul>
-<li>Submissions:  July 10, 2016</li>
-<li>Author notification: July 17, 2016</li>
-<li>Registration for participation: July 20, 2016</li>
+<li>Registration for participation: July 27, 2016</li>
 <li>Virtual machine Meetup: Sep 1st + 2nd 2016 at USI Lugano</li>
 <li>Social Event: Sep 3rd 2016, optional</li>
 </ul>
