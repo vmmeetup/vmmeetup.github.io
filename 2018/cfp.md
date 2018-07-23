@@ -4,18 +4,17 @@
                       5th Virtual Machine Meetup
 
                         Co-located with ManLang
-                 September 12-14, 2018, Linz, Austria
+                  September 14th, 2018, Linz, Austria
                    
                     http://vmmeetup.github.io/2018/
 
 
 The 5th Virtual Machine Meetup (VMM'18) is a venue for discussing the latest
 research and developments in the area of managed language execution. It will be
-held from 12th to 14th of September at the Johannes Kepler University, Linz,
-Austria and is colocated with the Managed Languages conference
-2018 (http://ssw.jku.at/manlang18/). We welcome presentations of new
-research results, experience reports, as well as position statements that can
-lead to interesting discussions.
+held on September 14th at the Johannes Kepler University, Linz, Austria and is
+colocated with the Managed Languages conference 2018 (http://ssw.jku.at/manlang18/).
+We welcome presentations of new research results, experience reports, as well as
+position statements that can lead to interesting discussions.
 
 
 Topics include, but are not limited to:
@@ -44,8 +43,9 @@ Important dates:
  - Submissions: August 15th, 2018
  - Author notification: August 16th, 2018
  - Registration for participation: August 31st, 2018
- - Virtual machine Meetup: Sep 12th to 14th at Johannes Kepler University Linz
- - Social Event: Sep 14th or 15th 2018, optional
+ - Virtual machine Meetup: Sep 14th at Johannes Kepler University Linz
+ - Introduction and Speakers Dinner: Sep 13th, evening, JKU Linz 
+ - Social Event: t.b.a, Sep 15th 2018 (optional)
 
 Submission link:
 
