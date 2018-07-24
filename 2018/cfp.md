@@ -1,4 +1,4 @@
-                    Call for Participation: VMM’18
+                    Call for Participation: VMM'18
                     ==============================
 
                       5th Virtual Machine Meetup
