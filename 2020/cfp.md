@@ -5,14 +5,14 @@
 
                          Co-located with MPLR
                        as a virtual online event
-                  November 4-6th, 2020, Manchester, UK
+                  November 5th, 2020, Manchester, UK
                    
                     http://vmmeetup.github.io/2020/
 
 
 The 6th Virtual Machine Meetup (VMM'2020) is a venue for discussing the latest
 research and developments in the area of managed language execution. It will be
-held on November 4-6th as a virtual event, and is colocated with the Managed Programming
+held on November 5th as a virtual event, and is colocated with the Managed Programming
 Languages & Runtimes (MPLR'20) conference (https://mplr2020.cs.manchester.ac.uk/).
 We welcome presentations of new research results, experience reports, as well as
 position statements that can lead to interesting discussions.
@@ -45,7 +45,7 @@ Important dates:
  - Submissions: October 20th, 2020
  - Author notification: October 21st, 2020
  - Registration for participation: October 31st, 2020
- - Virtual machine Meetup: November 4-6th online (via Zoom)
+ - Virtual machine Meetup: November 5th online on Zoom (afternoon CET/morning ET)
 
 Submission link:
 
